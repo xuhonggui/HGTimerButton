@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.subspec 'HWWeakTimer' do |w|
      w.dependency "HWWeakTimer"
-     w.source_files = "Classes/*.{h,m}"
+     w.source_files = "*.{h,m}"
   end
 end
