@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HGTimerButton"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "a custom UIButton that contains NSTimer"
   s.homepage     = "https://github.com/xuhonggui/HGTimerButton"
   s.license      = "MIT"
