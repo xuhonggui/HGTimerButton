@@ -1,5 +1,5 @@
 # HGTimerButton
-封装NSTimer的UIButton:<br>
+封装NSTimer的UIButton，依赖HWWeakTimer库，避免NSTimer强引用导致的内存泄漏，支持纯代码及xib:<br>
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image1.png" width=35% heithg=35% />
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png" width=35% heithg=35% />
 # How to Use
