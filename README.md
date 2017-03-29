@@ -3,13 +3,14 @@
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image1.png" width=35% heithg=35% />
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png" width=35% heithg=35% />
 # How to Use
-## 使用CocoaPods<br>
+#### 使用CocoaPods<br>
 ```
 pod 'HGTimerButton'
 ```
-## 手动导入<br>
+#### 手动导入<br>
 将`HGTimerButton`、`HWWeakTimer`文件夹中所有源代码拽入项目中，导入头文件`import "HGTimerButton.h"`<br>
-## 示例:<br>
+#### 示例:<br>
+创建对象
 ```
 HGTimerButton *timerButton = [HGTimerButton buttonWithType:UIButtonTypeCustom];
 timerButton.frame = CGRectMake(40, CGRectGetHeight(self.view.frame)/2 - 50, CGRectGetWidth(self.view.frame) - 80, 40);
