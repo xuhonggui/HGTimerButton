@@ -15,6 +15,8 @@
 		18A1CB001E8B44840059AF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1CAFE1E8B44840059AF7D /* LaunchScreen.storyboard */; };
 		18A1CB0D1E8B44F40059AF7D /* HGTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1CB091E8B44F40059AF7D /* HGTimerButton.m */; };
 		18A1CB0E1E8B44F40059AF7D /* HWWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1CB0C1E8B44F40059AF7D /* HWWeakTimer.m */; };
+		18A1CB121E8B52550059AF7D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1CB101E8B52550059AF7D /* image1.png */; };
+		18A1CB131E8B52550059AF7D /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A1CB111E8B52550059AF7D /* image2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		18A1CB091E8B44F40059AF7D /* HGTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGTimerButton.m; sourceTree = "<group>"; };
 		18A1CB0B1E8B44F40059AF7D /* HWWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWWeakTimer.h; sourceTree = "<group>"; };
 		18A1CB0C1E8B44F40059AF7D /* HWWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWWeakTimer.m; sourceTree = "<group>"; };
+		18A1CB101E8B52550059AF7D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		18A1CB111E8B52550059AF7D /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		18A1CAEF1E8B44840059AF7D /* HGTimerButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18A1CB0F1E8B52550059AF7D /* Image */,
 				18A1CB071E8B44F40059AF7D /* HGTimerButton */,
 				18A1CB0A1E8B44F40059AF7D /* HWWeakTimer */,
 				18A1CAF31E8B44840059AF7D /* AppDelegate.h */,
@@ -103,6 +108,15 @@
 				18A1CB0C1E8B44F40059AF7D /* HWWeakTimer.m */,
 			);
 			path = HWWeakTimer;
+			sourceTree = "<group>";
+		};
+		18A1CB0F1E8B52550059AF7D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				18A1CB101E8B52550059AF7D /* image1.png */,
+				18A1CB111E8B52550059AF7D /* image2.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A1CB001E8B44840059AF7D /* LaunchScreen.storyboard in Resources */,
+				18A1CB131E8B52550059AF7D /* image2.png in Resources */,
+				18A1CB121E8B52550059AF7D /* image1.png in Resources */,
 				18A1CAFD1E8B44840059AF7D /* Assets.xcassets in Resources */,
 				18A1CAFB1E8B44840059AF7D /* Main.storyboard in Resources */,
 			);
@@ -337,6 +353,7 @@
 				18A1CB061E8B44840059AF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
