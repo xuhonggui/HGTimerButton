@@ -1,7 +1,7 @@
 # HGTimerButton
 封装NSTimer的UIButton
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image1.png" width=375 heithg=667 />
-![](https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png)<br>
+<img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png" width=375 heithg=667 />
 # How to Use
 创建HGTimerButton对象，与创建UIButton对象类似:<br>
 ```
