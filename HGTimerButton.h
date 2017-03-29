@@ -1,10 +1,9 @@
-//
-//  HGTimerButton.h
-//  BobBuilder
-//
-//  Created by apple on 2017/3/27.
-//  Copyright © 2017年 dlc. All rights reserved.
-//
+/*
+ The MIT License (MIT)
+ 
+ Copyright (c) 2017, xuhonggui.
+ All rights reserved.
+ */
 
 #import <UIKit/UIKit.h>
 
