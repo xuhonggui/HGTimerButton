@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HGTimerButton"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "a custom UIButton that contains NSTimer"
   s.homepage     = "https://github.com/xuhonggui/HGTimerButton"
   s.license      = "MIT"
@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.subspec 'HWWeakTimer' do |w|
      w.dependency "HWWeakTimer"
-     w.source_files = "HWWeakTimer/*.{h,m}"
   end
 end
