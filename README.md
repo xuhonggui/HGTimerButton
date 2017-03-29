@@ -1,5 +1,5 @@
 # HGTimerButton
-封装NSTimer的UIButton
+封装NSTimer的UIButton:<br>
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image1.png" width=375 heithg=667 />
 <img src="https://github.com/xuhonggui/HGTimerButton/raw/master/Image/image2.png" width=375 heithg=667 />
 # How to Use
